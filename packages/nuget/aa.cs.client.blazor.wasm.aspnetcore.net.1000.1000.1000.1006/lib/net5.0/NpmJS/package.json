@@ -1,0 +1,65 @@
+{
+  "name": "npmjs",
+  "version": "1.0.0",
+  "module": "AWSChimeJsInterop",
+  "description": "Package to use Chime JS components from .net",
+  "main": "./_build/src/NpmJS.js",
+  "types": "./_build/src/NpmJS.d.ts",
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false,
+    "net": false,
+    "tls": false
+  },
+  "scripts": {
+    "build": "npx webpack --config webpack.config.js"
+  },
+  "node": {
+    "fs": "empty"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/register": "^7.13.8",
+    "@types/node": "^14.14.34",
+    "@types/uuid": "^8.3.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^17.0.0",
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "ts-loader": "^8.1.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2",
+    "vinyl-source-stream": "^2.0.0",
+    "webpack": "^5.27.2",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity": "3.12.0",
+    "@aws-sdk/client-s3": "^3.9.0",
+    "@aws-sdk/credential-provider-cognito-identity": "3.12.0",
+    "@aws-sdk/credential-provider-imds": "^3.8.0",
+    "@aws-sdk/credential-provider-node": "^3.9.0",
+    "@aws-sdk/lib-storage": "^3.10.0",
+    "amazon-chime-sdk-js": "^2.5.0",
+    "fs": "0.0.1-security",
+    "guid-typescript": "^1.0.9",
+    "human-signals": "^2.1.0",
+    "jquery": "^3.6.0",
+    "json-loader": "^0.5.7",
+    "react": "^17.0.1",
+    "react-native": "^0.64.0",
+    "rxjs": "^6.6.6",
+    "stream": "0.0.2",
+    "stream-browserify": "^3.0.0",
+    "uuid": "^8.3.2"
+  }
+}

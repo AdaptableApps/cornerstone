@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>aa.cs.client.blazor.wasm.aspnetcore.net</id>
+    <version>1000.1000.1000.1006</version>
+    <authors>Adaptable Apps (Pty) Ltd</authors>
+    <owners>Adaptable Apps (Pty) Ltd</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://adaptableapps.net/Cornerstone-Low-code-Framework.php</projectUrl>
+    <iconUrl>http://adaptableapps.net/resources/AdaptableApps_Icon_V4_29p.png.opt122x122o0%2C0s122x122.png</iconUrl>
+    <description>Low-Code Framework that allows rapid development of offline capable, cloud connected, multi-platform systems</description>
+    <releaseNotes>Initial Version</releaseNotes>
+    <copyright>Copyright ©2021 Adaptable Apps (Pty) Ltd</copyright>
+    <tags>Cornerstone Low-Code Framework SDK</tags>
+    <dependencies>
+      <group targetFramework=".NETCoreApp5.0">
+        <dependency id="aa.cs.client.net" version="1000.1000.1000.1006" />
+        <dependency id="aa.cs.cloud.aws.chime.net" version="1000.1000.1000.1006" />
+        <dependency id="aa.cs.cloud.aws.elemental.net" version="1000.1000.1000.1006" />
+        <dependency id="Microsoft.CSharp" version="4.7.0" />
+        <dependency id="Microsoft.AspNetCore.Components.WebAssembly" version="5.0.6" />
+        <dependency id="Microsoft.AspNetCore.Components.WebAssembly.DevServer" version="5.0.6" />
+        <dependency id="MudBlazor" version="5.0.8" />
+        <dependency id="System.Net.Http.Json" version="5.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
