@@ -26,6 +26,9 @@ x86 : https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-5.0.100-windows
 `Note:`
 * Because of Windows path length limitations it is recommended your code is checked out into folders in the root of your chosen hard drive e.g. `c:\` or `d:\` etc
 
+npm (latest lts version) needs to be installed:
+https://nodejs.org/en/
+
 Then clone this git repo:
 https://github.com/AdaptableApps/adaptableapps-cornerstone-sdk.git
 
