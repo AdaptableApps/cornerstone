@@ -55,6 +55,8 @@ Create a repo for your system in github or similar.
 
 Clone that repo on your machine.
 
+#### Windows Environment Variables
+
 You will need to set the following environment variables in your Windows environment variable settings:
 
 - CORNERSTONE_SDK
@@ -72,6 +74,8 @@ This should point to whereever you checked out your system's repo
 In the cloned repo folder on your machine create `src` and `scripts` folders.
 
 Create your projects in the the `src` folder.
+
+#### Cornerstone Code Generation
 
 Create a folder in your `src` folder for the Cornerstone code gen data spreadsheet:
 
