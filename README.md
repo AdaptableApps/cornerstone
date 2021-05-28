@@ -55,7 +55,7 @@ Create a repo for your system in github or similar.
 
 Clone that repo on your machine.
 
-You will need to set the following environment variables in your ~/.bashrc or ~/.zshrc file:
+You will need to set the following environment variables in your Windows environment variable settings:
 
 - CORNERSTONE_SDK
 
