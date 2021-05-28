@@ -29,19 +29,27 @@ x86 : https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-5.0.100-windows
 
 - Because of Windows path length limitations it is recommended your code is checked out into folders in the root of your chosen hard drive e.g. `c:\` or `d:\` etc
 
+#### npm
+
 npm (latest lts version) needs to be installed:
 https://nodejs.org/en/
 
-Then clone this git repo:
-https://github.com/AdaptableApps/adaptableapps-cornerstone-sdk.git
+#### Regional Settings
 
 Adjust the following regional settings in Windows settings:
 
 - Change the decimal separator to . (i.e. the full stop character) if it is not that already
 
+#### Git
+
+Ensure the git cli is installed for your chosen development operating system
+
+Then clone this git repo:
+https://github.com/AdaptableApps/adaptableapps-cornerstone-sdk.git
+
 Checkout the `beta` branch
 
-Decide on a `code` for your system e.g. if you are creating creating a CRM system and your company is called Acme then your code would be `ACRM`. It is used wherever you see `{SystemCode}` below.
+Decide on a `system code` for your system e.g. if you are creating creating a CRM system and your company is called Acme then your code would be `ACRM`. It is used wherever you see `{SystemCode}` below.
 
 Create a repo for your system in github or similar.
 
