@@ -6,11 +6,11 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "cscli/0000047": {
+      "cscli/0000051": {
         "dependencies": {
           "FastExcel": "3.0.13",
           "Newtonsoft.Json": "13.0.1",
-          "aa.cs.core.net": "1000.1000.1000.1052",
+          "aa.cs.core.net": "1000.1000.1000.2003",
           "aa.cs.devops.cscli.shared.net": "1.0.0"
         },
         "runtime": {
@@ -162,7 +162,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "aa.cs.core.net/1000.1000.1000.1052": {
+      "aa.cs.core.net/1000.1000.1000.2003": {
         "dependencies": {
           "FluentValidation": "10.2.3",
           "Microsoft.CSharp": "4.7.0",
@@ -179,7 +179,7 @@
         "dependencies": {
           "FastExcel": "3.0.13",
           "Newtonsoft.Json": "13.0.1",
-          "aa.cs.core.net": "1000.1000.1000.1052"
+          "aa.cs.core.net": "1000.1000.1000.2003"
         },
         "runtime": {
           "aa.cs.devops.cscli.shared.net.dll": {}
@@ -188,7 +188,7 @@
     }
   },
   "libraries": {
-    "cscli/0000047": {
+    "cscli/0000051": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -347,7 +347,7 @@
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
     },
-    "aa.cs.core.net/1000.1000.1000.1052": {
+    "aa.cs.core.net/1000.1000.1000.2003": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
