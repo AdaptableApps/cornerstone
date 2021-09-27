@@ -1,10 +1,12 @@
 #!/bin/bash
 
-echo "Running: sudo ./dotnet-core-uninstall remove --all-previews --sdk --force"
-sudo ./dotnet-core-uninstall remove --all-previews --sdk --force
+# todo for linux
+# echo "Running: sudo ./dotnet-core-uninstall remove --all-previews --sdk --force"
+# sudo ./dotnet-core-uninstall remove --all-previews --sdk --force
 
-echo "Running: sudo ./dotnet-core-uninstall remove --all-previews --runtime --force"
-sudo ./dotnet-core-uninstall remove --all-previews --runtime --force
+# todo for linux
+# echo "Running: sudo ./dotnet-core-uninstall remove --all-previews --runtime --force"
+# sudo ./dotnet-core-uninstall remove --all-previews --runtime --force
 
 echo "Running: "
 sudo dotnet workload uninstall wasm-tools
