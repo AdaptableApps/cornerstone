@@ -21,13 +21,27 @@ Cornerstone is primarily built on the dotnet framework, which allows a Cornersto
 
 ### Setting up Windows for development
 
-dotnet 5.0.101 sdk must be installed:
-x64 : https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-5.0.100-windows-x64-installer
-x86 : https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-5.0.100-windows-x86-installer
+dotnet 6.0.100-rc.2.21467.8 sdk must be installed:
+x64 : https://aka.ms/dotnet/6.0.1XX-rc2/daily/dotnet-sdk-win-x64.exe
+x86 : https://aka.ms/dotnet/6.0.1XX-rc2/daily/dotnet-sdk-win-x86.exe
 
 `Note:`
 
 - Because of Windows path length limitations it is recommended your code is checked out into folders in the root of your chosen hard drive e.g. `c:\` or `d:\` etc
+
+### Setting up macOS for development
+
+dotnet 6.0.100-rc.2.21467.8 sdk must be installed:
+x64 : https://aka.ms/dotnet/6.0.1XX-rc2/daily/dotnet-sdk-osx-x64.pkg
+
+Rider Ide (Highly recommended for productivity):
+https://www.jetbrains.com/rider/download/
+
+Iterm2 terminal (Highly recommended for productivity):
+https://iterm2.com (free version is fine)
+
+Postman API tool (Highly recommended for productivity):
+https://www.postman.com (free version is fine)
 
 #### npm
 
@@ -42,7 +56,8 @@ Adjust the following regional settings in Windows settings:
 
 #### Git
 
-Ensure the git cli is installed for your chosen development operating system
+Ensure the git cli is installed for your chosen development operating system:
+https://github.com/git-guides/install-gitS
 
 Then clone this git repo:
 https://github.com/AdaptableApps/adaptableapps-cornerstone-sdk.git
@@ -63,6 +78,26 @@ You will need to set the following environment variables in your Windows environ
 
 ```
 This should point to whereever you checked out this repo e.g. c:\adaptableapps-cornerstone-sdk
+```
+
+- {SystemCode}\_ROOT
+
+```
+This should point to whereever you checked out your system's repo
+```
+
+In the cloned repo folder on your machine create `src` and `scripts` folders.
+
+Create your projects in the the `src` folder.
+
+#### macOS Environment Variables
+
+You will need to set the following environment variables in your Windows environment variable settings:
+
+- CORNERSTONE_SDK
+
+```
+This should point to whereever you checked out this repo e.g. /Users/your_user_name/Code/aa/adaptableapps-cornerstone-sdk
 ```
 
 - {SystemCode}\_ROOT
