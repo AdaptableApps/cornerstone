@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "cscli/0000068": {
+      "cscli/0000071": {
         "dependencies": {
           "FastExcel": "3.0.13",
           "Newtonsoft.Json": "13.0.1",
@@ -70,7 +70,7 @@
     }
   },
   "libraries": {
-    "cscli/0000068": {
+    "cscli/0000071": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
