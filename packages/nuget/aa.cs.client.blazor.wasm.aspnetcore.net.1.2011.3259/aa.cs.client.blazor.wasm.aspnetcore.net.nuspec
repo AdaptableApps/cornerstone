@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>aa.cs.client.blazor.wasm.aspnetcore.net</id>
+    <version>1.2011.3259</version>
+    <authors>aa.cs.client.blazor.wasm.aspnetcore.net</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="aa.cs.client.net" version="1.2011.3259" exclude="Build,Analyzers" />
+        <dependency id="aa.cs.cloud.aws.chime.net" version="1.2011.3259" exclude="Build,Analyzers" />
+        <dependency id="aa.cs.cloud.aws.elemental.net" version="1.2011.3259" exclude="Build,Analyzers" />
+        <dependency id="aa.cs.core.net" version="1.2011.3259" exclude="Build,Analyzers" />
+        <dependency id="aa.cs.data.net" version="1.2011.3259" exclude="Build,Analyzers" />
+        <dependency id="aa.cs.http.microsoft.httpclient" version="1.2011.3259" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components.WebAssembly" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components.WebAssembly.DevServer" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.StaticFiles" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.FileProviders.Abstractions" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.FileProviders.Composite" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.FileProviders.Embedded" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.JSInterop.WebAssembly" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="MudBlazor" version="6.0.2" exclude="Build,Analyzers" />
+        <dependency id="System.IO.Pipelines" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Net.Http.Json" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
