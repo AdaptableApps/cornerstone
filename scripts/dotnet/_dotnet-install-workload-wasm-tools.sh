@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # echo "Running: sudo dotnet workload uninstall wasm-tools"
 # sudo dotnet workload uninstall wasm-tools
