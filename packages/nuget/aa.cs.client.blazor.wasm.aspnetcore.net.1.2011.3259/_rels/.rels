@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
-  <Relationship Type="http://schemas.microsoft.com/packaging/2010/07/manifest" Target="/aa.cs.client.blazor.wasm.aspnetcore.net.nuspec" Id="REAB9EEDC0E3759FE" />
-  <Relationship Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="/package/services/metadata/core-properties/4cd2c74e4161458a8c7c120216548bef.psmdcp" Id="R134508F4935B19C0" />
-</Relationships>

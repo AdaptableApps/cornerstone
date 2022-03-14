@@ -61,7 +61,7 @@ Adjust the following regional settings in Windows settings:
 Ensure the git cli is installed for your chosen development operating system:
 https://github.com/git-guides/install-gitS
 
-Then clone this git repo:
+Then clone this git repo into c:\aa :
 https://github.com/AdaptableApps/adaptableapps-cornerstone-sdk.git
 
 Checkout the `beta` branch
