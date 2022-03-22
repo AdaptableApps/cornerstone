@@ -12,13 +12,13 @@ sudo dotnet workload uninstall macos
 echo "Running: "
 sudo dotnet workload uninstall wasm-tools
 
-echo "Running: sudo ./dotnet-install.sh -version 6.0.101 --install-dir /usr/local/share/dotnet"
-sudo ./dotnet-install.sh -version 6.0.101 --install-dir /usr/local/share/dotnet
+echo "Running: sudo ./dotnet-install.sh -version 6.0.102 --install-dir /usr/local/share/dotnet"
+sudo ./dotnet-install.sh -version 6.0.102 --install-dir /usr/local/share/dotnet
 
-echo "Running: sudo dotnet workload install macos --source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json --sdk-version 6.0.101"
-sudo dotnet workload install macos --source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json --sdk-version 6.0.101
+echo "Running: sudo dotnet workload install macos --source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json --sdk-version 6.0.102"
+sudo dotnet workload install macos --source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json --sdk-version 6.0.102
 
-echo "Running: sudo dotnet workload install wasm-tools --source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json --sdk-version 6.0.101"
-sudo dotnet workload install wasm-tools --source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json --sdk-version 6.0.101
+echo "Running: sudo dotnet workload install wasm-tools --source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json --sdk-version 6.0.102"
+sudo dotnet workload install wasm-tools --source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json --sdk-version 6.0.102
 
 echo "Done"
