@@ -6,26 +6,35 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "cscli/0000071": {
+      "cscli/0000074": {
         "dependencies": {
           "FastExcel": "3.0.13",
           "Newtonsoft.Json": "13.0.1",
-          "aa.cs.core.net": "1.2001.3223",
+          "aa.cs.core.net": "1.2011.3335",
           "aa.cs.devops.cscli.shared.net": "1.0.0"
         },
         "runtime": {
           "cscli.dll": {}
         }
       },
-      "aa.cs.core.net/1.2001.3223": {
+      "aa.cs.core.net/1.2011.3335": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "MvvmLightLibsStd10": "5.4.1.1",
           "Newtonsoft.Json": "13.0.1",
-          "System.ComponentModel.Annotations": "5.0.0"
+          "System.ComponentModel.Annotations": "5.0.0",
+          "aa.cs.shared.net": "1.2011.3335"
         },
         "runtime": {
           "lib/net6.0/aa.cs.core.net.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "aa.cs.shared.net/1.2011.3335": {
+        "runtime": {
+          "lib/net6.0/aa.cs.shared.net.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -61,7 +70,7 @@
         "dependencies": {
           "FastExcel": "3.0.13",
           "Newtonsoft.Json": "13.0.1",
-          "aa.cs.core.net": "1.2001.3223"
+          "aa.cs.core.net": "1.2011.3335"
         },
         "runtime": {
           "aa.cs.devops.cscli.shared.net.dll": {}
@@ -70,17 +79,24 @@
     }
   },
   "libraries": {
-    "cscli/0000071": {
+    "cscli/0000074": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "aa.cs.core.net/1.2001.3223": {
+    "aa.cs.core.net/1.2011.3335": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6ot8KE36vONiwVhepVNwPS9LnUqH8oFEPeEujn/V9C46HJOD+AOS4gXfdKeWAY0sjh7T258MN5V7JvpwleVBJA==",
-      "path": "aa.cs.core.net/1.2001.3223",
-      "hashPath": "aa.cs.core.net.1.2001.3223.nupkg.sha512"
+      "sha512": "sha512-K5lnWPpzaodm2bn4sCPM19yxk/sdSqOItzfXRZHduYAddhPGvXM93qos4CWvBBbvDyxWiB6DQXJjbkcr8YPj1Q==",
+      "path": "aa.cs.core.net/1.2011.3335",
+      "hashPath": "aa.cs.core.net.1.2011.3335.nupkg.sha512"
+    },
+    "aa.cs.shared.net/1.2011.3335": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hwELVgDQ1HviLL533a65Gh1nE5UGNFlX7j+vebeQNe0bnRXXrwqqQZ/AUCtEw7GdEAg8hNeP9dLxNbkIx/qNvQ==",
+      "path": "aa.cs.shared.net/1.2011.3335",
+      "hashPath": "aa.cs.shared.net.1.2011.3335.nupkg.sha512"
     },
     "FastExcel/3.0.13": {
       "type": "package",
