@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # echo "Running: sudo dotnet workload uninstall macos"
 # sudo dotnet workload uninstall macos
