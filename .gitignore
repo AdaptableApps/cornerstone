@@ -351,3 +351,7 @@ MigrationBackup/
 
 # macOS specific files
 .DS_Store
+
+#dotnet publish folders
+web-publish
+published

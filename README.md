@@ -21,9 +21,10 @@ Cornerstone is primarily built on the dotnet framework, which allows a Cornersto
 
 ### Setting up Windows for development
 
-dotnet 6.0.100-rc.2.21467.8 sdk must be installed:
-x64 : https://aka.ms/dotnet/6.0.1XX-rc2/daily/dotnet-sdk-win-x64.exe
-x86 : https://aka.ms/dotnet/6.0.1XX-rc2/daily/dotnet-sdk-win-x86.exe
+dotnet 6.0.101 sdk must be installed:
+x64 : https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.101-windows-x64-installer
+x86 : https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.101-windows-x86-installer
+Arm64 : https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.101-windows-arm64-installer
 
 `Note:`
 
@@ -31,8 +32,9 @@ x86 : https://aka.ms/dotnet/6.0.1XX-rc2/daily/dotnet-sdk-win-x86.exe
 
 ### Setting up macOS for development
 
-dotnet 6.0.100-rc.2.21467.8 sdk must be installed:
-x64 : https://aka.ms/dotnet/6.0.1XX-rc2/daily/dotnet-sdk-osx-x64.pkg
+dotnet 6.0.101 sdk must be installed:
+x64 : https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.101-macos-x64-installer
+Arm64: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.101-macos-arm64-installer
 
 Rider Ide (Highly recommended for productivity):
 https://www.jetbrains.com/rider/download/
@@ -59,7 +61,7 @@ Adjust the following regional settings in Windows settings:
 Ensure the git cli is installed for your chosen development operating system:
 https://github.com/git-guides/install-gitS
 
-Then clone this git repo:
+Then clone this git repo into c:\aa :
 https://github.com/AdaptableApps/adaptableapps-cornerstone-sdk.git
 
 Checkout the `beta` branch
