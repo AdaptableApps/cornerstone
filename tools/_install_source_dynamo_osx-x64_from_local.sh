@@ -4,11 +4,11 @@ echo "Running _install_source_dynamo_osx-x64_from_local.sh" &&
 EXECUTABLE_NAME="sourcedynamo" &&
 
 echo EXECUTABLE_NAME: $EXECUTABLE_NAME &&
-echo sudo mkdir ~/.sd/ &&
-sudo mkdir ~/.sd/ &&
+echo sudo mkdir -p ~/.sd/ &&
+sudo mkdir -p ~/.sd/ &&
 
-echo sudo cp ./latest/osx-x64/$EXECUTABLE_NAME ~/.sd/$EXECUTABLE_NAME &&
-sudo cp ./osx-x64/$EXECUTABLE_NAME ~/.sd/$EXECUTABLE_NAME &&
+echo sudo cp ./sourcedynamo/osx-x64/$EXECUTABLE_NAME ~/.sd/$EXECUTABLE_NAME &&
+sudo cp ./sourcedynamo/osx-x64/$EXECUTABLE_NAME ~/.sd/$EXECUTABLE_NAME &&
 
 echo sudo chmod +x ~/.sd/$EXECUTABLE_NAME &&
 chmod +x ~/.sd/$EXECUTABLE_NAME &&
