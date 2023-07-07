@@ -9,4 +9,4 @@ This repo is for distributing cornerstone sdk's while in beta
 Note: these instructions will change once the packages and tools go live on nuget
 
 Please see the wiki for instructions on how to use Cornerstone:
-[Wiki](https://github.com/AdaptableApps/cornerstone.wiki)
+[Wiki](https://github.com/AdaptableApps/cornerstone/wiki)
